@@ -1,0 +1,45 @@
+@media (max-width: 900) {
+	.searchInput {
+		width: 100px;
+	}
+}
+
+body {
+	color: white;
+}
+
+.containerPadd {
+	padding-left: 20px !important;
+}
+
+.searchInput {
+	display: flex;
+	justify-content: start;
+	width: fit-content;
+	background: #343536 !important;
+	font-size: 14px !important;
+	color: white !important;
+	border: transparent !important;
+	border-radius: 25px !important;
+}
+
+.NavbarColor {
+	background-color: #242526 !important;
+}
+
+button {
+	background: transparent !important;
+	border: none;
+	width: 100px;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px !important;
+}
+button:hover {
+	background-color: rgba(255, 255, 255, 0.253) !important;
+	border: none;
+	color: white;
+	opacity: 0.6;
+	transition: 0.2s;
+}

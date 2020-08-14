@@ -1,0 +1,13 @@
+.btn-primary {
+	border-color: transparent !important;
+}
+
+.btn {
+	text-align: start !important;
+	margin: 10px;
+	height: 45px !important;
+}
+
+.profileBtn {
+	padding-left: 17px !important;
+}
