@@ -10,10 +10,10 @@ export default class Mainpage extends Component {
 			<div className="mainpage">
 				<ReactBootstrap.Container fluid="xs">
 					<ReactBootstrap.Row>
-						<ReactBootstrap.Col xs={6} md={4}>
+						<ReactBootstrap.Col md={4}>
 							<Leftsidemenu />
 						</ReactBootstrap.Col>
-						<ReactBootstrap.Col xs={6} md={4}>
+						<ReactBootstrap.Col md={4}>
 							<br />
 							<Centerrow />
 						</ReactBootstrap.Col>
