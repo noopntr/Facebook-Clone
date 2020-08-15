@@ -6,6 +6,8 @@ import second from './DayPics/second.jpg';
 import third from './DayPics/third.jpg';
 import fourth from './DayPics/fourth.jpg';
 
+import Newpost from './NewPost';
+
 export default class Centerrow extends Component {
 	render() {
 		return (
@@ -33,6 +35,8 @@ export default class Centerrow extends Component {
 							</ReactBootstrap.Card>
 						</ReactBootstrap.Col>
 					</ReactBootstrap.Row>
+					<br />
+					<Newpost />
 				</ReactBootstrap.Container>
 			</div>
 		);
