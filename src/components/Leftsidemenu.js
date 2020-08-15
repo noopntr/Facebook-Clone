@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from 'react';
 import * as ReactBootstrap from 'react-bootstrap';
 import './Leftsidemenu.css';
@@ -15,32 +16,34 @@ import { FaUserCircle } from 'react-icons/fa';
 export default class Leftsidemenu extends Component {
 	render() {
 		return (
-			<ReactBootstrap.ButtonGroup vertical>
-				<ReactBootstrap.Button className="profileBtn">
-					<FaUserCircle size={30} /> Profile
-				</ReactBootstrap.Button>
-				<ReactBootstrap.Button>
-					<img src={covid} /> COVID-19 Information Center
-				</ReactBootstrap.Button>
-				<ReactBootstrap.Button>
-					<img src={friends} /> Friends
-				</ReactBootstrap.Button>
-				<ReactBootstrap.Button>
-					<img src={messenger} /> Messenger
-				</ReactBootstrap.Button>
-				<ReactBootstrap.Button>
-					<img src={pages} />Pages
-				</ReactBootstrap.Button>
-				<ReactBootstrap.Button>
-					<img src={events} />Events
-				</ReactBootstrap.Button>
-				<ReactBootstrap.Button>
-					<img src={videos} />Videos
-				</ReactBootstrap.Button>
-				<ReactBootstrap.Button>
-					<img src={groups} />Groups
-				</ReactBootstrap.Button>
-			</ReactBootstrap.ButtonGroup>
+			<ReactBootstrap.Container fluid="xs">
+				<ReactBootstrap.ButtonGroup vertical>
+					<ReactBootstrap.Button className="profileBtn">
+						<FaUserCircle size={30} /> Profile
+					</ReactBootstrap.Button>
+					<ReactBootstrap.Button>
+						<img src={covid} /> COVID-19 Information Center
+					</ReactBootstrap.Button>
+					<ReactBootstrap.Button>
+						<img src={friends} /> Friends
+					</ReactBootstrap.Button>
+					<ReactBootstrap.Button>
+						<img src={messenger} /> Messenger
+					</ReactBootstrap.Button>
+					<ReactBootstrap.Button>
+						<img src={pages} />Pages
+					</ReactBootstrap.Button>
+					<ReactBootstrap.Button>
+						<img src={events} />Events
+					</ReactBootstrap.Button>
+					<ReactBootstrap.Button>
+						<img src={videos} />Videos
+					</ReactBootstrap.Button>
+					<ReactBootstrap.Button>
+						<img src={groups} />Groups
+					</ReactBootstrap.Button>
+				</ReactBootstrap.ButtonGroup>
+			</ReactBootstrap.Container>
 		);
 	}
 }

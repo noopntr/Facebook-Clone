@@ -10,8 +10,6 @@ function App() {
 	return (
 		<React.Fragment>
 			<NavBar />
-			<br />
-			<br />
 			<Switch>
 				<Route exact path="/" component={Mainpage} />
 				<Route component={Default} />

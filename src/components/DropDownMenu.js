@@ -90,17 +90,13 @@ function DropdownMenu() {
           goToMenu="profile"
           > 
            UserName
-            <br />
             </DropdownItem>
-          <br />
           <DropdownItem
             leftIcon={<CogIcon />}
             rightIcon={<ChevronIcon />}
             goToMenu="contact">
             Give Feedback
-            <br />
           </DropdownItem>
-          <br />
           <DropdownItem
             leftIcon={<CogIcon />}
             rightIcon={<ChevronIcon />}

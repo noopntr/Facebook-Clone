@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	padding: 0;
 	background: #101011 !important;
 }
 
@@ -40,4 +41,37 @@ body {
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+a:link {
+	color: white !important;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white !important;
+	text-decoration: none !important;
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
