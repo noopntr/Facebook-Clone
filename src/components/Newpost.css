@@ -32,3 +32,22 @@ hr {
 .firstRow {
 	margin-bottom: -15px !important;
 }
+
+.newPostInput:hover {
+	background: rgb(77, 77, 77) !important;
+	transition: 0.3s;
+}
+
+.newPostInput {
+	cursor: pointer;
+	background: rgb(59, 59, 59) !important;
+	border: transparent !important;
+	border-radius: 20px !important;
+	color: white !important;
+}
+
+.userIcon:hover {
+	cursor: pointer;
+	color: rgb(206, 206, 206) !important;
+	transition: 0.3s;
+}

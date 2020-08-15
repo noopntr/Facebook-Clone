@@ -17,7 +17,11 @@ export default class NewPost extends Component {
 						<ReactBootstrap.Col xs={10}>
 							<ReactBootstrap.Form>
 								<ReactBootstrap.Form.Group>
-									<ReactBootstrap.Form.Control type="text" placeholder="What's On Your Mine, User?" />
+									<ReactBootstrap.Form.Control
+										className="newPostInput"
+										type="text"
+										placeholder="What's On Your Mine, User?"
+									/>
 								</ReactBootstrap.Form.Group>
 							</ReactBootstrap.Form>
 						</ReactBootstrap.Col>

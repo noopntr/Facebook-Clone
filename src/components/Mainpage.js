@@ -9,7 +9,7 @@ export default class Mainpage extends Component {
 		return (
 			<div className="mainpage">
 				<ReactBootstrap.Container fluid="xs">
-					<ReactBootstrap.Row>
+					<ReactBootstrap.Row className="paddingRow">
 						<ReactBootstrap.Col md={4}>
 							<Leftsidemenu />
 						</ReactBootstrap.Col>

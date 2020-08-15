@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import NavBar from './components/Navbar';
-import Default from './components/Default';
+import NotFound from './components/NotFound';
 import Mainpage from './components/Mainpage';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 			<NavBar />
 			<Switch>
 				<Route exact path="/" component={Mainpage} />
-				<Route component={Default} />
+				<Route component={NotFound} />
 			</Switch>
 		</React.Fragment>
 	);

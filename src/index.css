@@ -15,9 +15,9 @@ body {
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
-* {
+/* * {
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
-}
+} */
