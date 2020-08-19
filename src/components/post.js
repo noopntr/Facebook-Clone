@@ -18,18 +18,22 @@ export default class post extends Component {
 								}}
 							>
 								<ReactBootstrap.Col>
-									<FaUserCircle
-										className="userIcon"
-										color="white"
-										size={45}
-										style={{ margin: '10px', paddingRight: '10px' }}
-									/>
-
-									<span className="userName"> Username</span>
-									<span className="threeDots">
-										<BsThreeDots />
-									</span>
+									<div className="cardTopSide">
+										<FaUserCircle
+											className="userIcon"
+											color="white"
+											size={45}
+											style={{ margin: '10px', paddingRight: '10px' }}
+										/>
+										<span className="userName" style={{ paddingTop: '20px' }}>
+											Username
+										</span>
+										<span className="threeDots" style={{ paddingTop: '20px', paddingLeft: '30px' }}>
+											<BsThreeDots />
+										</span>
+									</div>
 								</ReactBootstrap.Col>
+
 								<ReactBootstrap.Card.Img
 									style={{ height: 'auto', maxHeight: '550px' }}
 									variant="top"
@@ -37,30 +41,30 @@ export default class post extends Component {
 								/>
 
 								<ReactBootstrap.Card.Body>
-									<ReactBootstrap.Card.Title>Card Title</ReactBootstrap.Card.Title>
+									<ReactBootstrap.Card.Title>Post Title</ReactBootstrap.Card.Title>
 									<ReactBootstrap.Card.Text>
-										Some quick example text to build on the card title and make up the bulk of the
-										card's content.
+										Some quick example text to build on the post title and make up the bulk of the
+										post's content.
 										<hr />
 									</ReactBootstrap.Card.Text>
 									<div className="bottomCard">
-									<ReactBootstrap.Row>
-										<ReactBootstrap.Col xs lg="4">
-											<ReactBootstrap.Button className="postbtn" variant="primary">
-												Like
-											</ReactBootstrap.Button>
-										</ReactBootstrap.Col>
-										<ReactBootstrap.Col xs lg="4">
-											<ReactBootstrap.Button className="postbtn" variant="primary">
-												Comment
-											</ReactBootstrap.Button>
-										</ReactBootstrap.Col>
-										<ReactBootstrap.Col xs lg="4">
-											<ReactBootstrap.Button className="postbtn" variant="primary">
-												Share
-											</ReactBootstrap.Button>
-										</ReactBootstrap.Col>
-									</ReactBootstrap.Row>
+										<ReactBootstrap.Row>
+											<ReactBootstrap.Col xs lg="4">
+												<ReactBootstrap.Button className="postbtn" variant="primary">
+													Like
+												</ReactBootstrap.Button>
+											</ReactBootstrap.Col>
+											<ReactBootstrap.Col xs lg="4">
+												<ReactBootstrap.Button className="postbtn" variant="primary">
+													Comment
+												</ReactBootstrap.Button>
+											</ReactBootstrap.Col>
+											<ReactBootstrap.Col xs lg="4">
+												<ReactBootstrap.Button className="postbtn" variant="primary">
+													Share
+												</ReactBootstrap.Button>
+											</ReactBootstrap.Col>
+										</ReactBootstrap.Row>
 									</div>
 								</ReactBootstrap.Card.Body>
 							</ReactBootstrap.Card>

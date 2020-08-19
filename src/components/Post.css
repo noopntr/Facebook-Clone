@@ -4,6 +4,20 @@
 	color: white;
 }
 
-.bottomCard{
+.bottomCard {
 	height: 40px;
+}
+
+.cardTopSide {
+	display: grid;
+	grid-template-columns: [full-start] minmax(0em, 1fr) [main-start] minmax(0, 35em) [main-end] minmax(0em, 1fr)
+		[full-end];
+}
+
+.userName:hover {
+	cursor: pointer;
+}
+
+.threeDots:hover {
+	cursor: pointer;
 }
