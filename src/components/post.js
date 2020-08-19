@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import * as ReactBootstrap from 'react-bootstrap';
 import { FaUserCircle } from 'react-icons/fa';
 import { BsThreeDots } from 'react-icons/bs';
+import { AiOutlineLike } from 'react-icons/ai';
+import { GoComment } from 'react-icons/go';
+import { RiShareForwardLine } from 'react-icons/ri';
 import './Post.css';
 
 export default class post extends Component {
@@ -51,17 +54,20 @@ export default class post extends Component {
 										<ReactBootstrap.Row>
 											<ReactBootstrap.Col xs lg="4">
 												<ReactBootstrap.Button className="postbtn" variant="primary">
-													Like
+													<AiOutlineLike size={20} style={{ marginTop: '7px' }} />
+													<span className="iconBtn">Like</span>
 												</ReactBootstrap.Button>
 											</ReactBootstrap.Col>
 											<ReactBootstrap.Col xs lg="4">
 												<ReactBootstrap.Button className="postbtn" variant="primary">
-													Comment
+													<GoComment size={20} style={{ marginTop: '7px' }} />
+													<span className="iconBtn">Comment</span>
 												</ReactBootstrap.Button>
 											</ReactBootstrap.Col>
 											<ReactBootstrap.Col xs lg="4">
 												<ReactBootstrap.Button className="postbtn" variant="primary">
-													Share
+													<RiShareForwardLine size={20} style={{ marginTop: '7px' }} />
+													<span className="iconBtn">Share</span>
 												</ReactBootstrap.Button>
 											</ReactBootstrap.Col>
 										</ReactBootstrap.Row>
