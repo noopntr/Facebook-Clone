@@ -1,3 +1,10 @@
+.centerrow {
+	margin: 0;
+
+	display: flex;
+	justify-content: center !important;
+}
+
 .card-img-top {
 	object-fit: cover;
 	width: 129px;
@@ -7,4 +14,16 @@
 }
 .card {
 	border: none !important;
+}
+
+.NewpostInCenter {
+	padding-top: 25px;
+	margin: 0;
+	width: 707px !important;
+}
+
+.PostInCenter {
+	padding-top: 25px;
+	margin: 0;
+	width: 700px !important;
 }

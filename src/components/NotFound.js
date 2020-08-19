@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './NotFound.css';
-import notFound from './404page/404.jpg';
 
 class NotFound extends Component {
 	render() {

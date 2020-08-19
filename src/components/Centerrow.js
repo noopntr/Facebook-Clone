@@ -7,36 +7,49 @@ import third from './DayPics/third.jpg';
 import fourth from './DayPics/fourth.jpg';
 
 import Newpost from './NewPost';
+import Post from './post';
 
 export default class Centerrow extends Component {
 	render() {
 		return (
 			<div className="centerrow">
 				<ReactBootstrap.Container>
-					<ReactBootstrap.Row className="justify-content-md-center">
-						<ReactBootstrap.Col>
-							<ReactBootstrap.Card style={{ width: '129px', height: '230px' }}>
-								<ReactBootstrap.Card.Img variant="top" src={first} />
-							</ReactBootstrap.Card>
+					<div style={{ width: '750px' }}>
+						<ReactBootstrap.Row>
+							<ReactBootstrap.Col>
+								<ReactBootstrap.Card style={{ width: '129px', height: '230px' }}>
+									<ReactBootstrap.Card.Img variant="top" src={first} />
+								</ReactBootstrap.Card>
+							</ReactBootstrap.Col>
+							<ReactBootstrap.Col>
+								<ReactBootstrap.Card style={{ width: '129px', height: '230px' }}>
+									<ReactBootstrap.Card.Img variant="top" src={second} />
+								</ReactBootstrap.Card>
+							</ReactBootstrap.Col>
+							<ReactBootstrap.Col>
+								<ReactBootstrap.Card style={{ width: '129px', height: '230px' }}>
+									<ReactBootstrap.Card.Img variant="top" src={third} />
+								</ReactBootstrap.Card>
+							</ReactBootstrap.Col>
+							<ReactBootstrap.Col>
+								<ReactBootstrap.Card style={{ width: '129px', height: '230px' }}>
+									<ReactBootstrap.Card.Img variant="top" src={fourth} />
+								</ReactBootstrap.Card>
+							</ReactBootstrap.Col>
+						</ReactBootstrap.Row>
+					</div>
+					<ReactBootstrap.Row>
+						<ReactBootstrap.Col md="12">
+							<div className="NewpostInCenter">
+								<Newpost />
+							</div>
 						</ReactBootstrap.Col>
-						<ReactBootstrap.Col>
-							<ReactBootstrap.Card style={{ width: '129px', height: '230px' }}>
-								<ReactBootstrap.Card.Img variant="top" src={second} />
-							</ReactBootstrap.Card>
-						</ReactBootstrap.Col>
-						<ReactBootstrap.Col>
-							<ReactBootstrap.Card style={{ width: '129px', height: '230px' }}>
-								<ReactBootstrap.Card.Img variant="top" src={third} />
-							</ReactBootstrap.Card>
-						</ReactBootstrap.Col>
-						<ReactBootstrap.Col>
-							<ReactBootstrap.Card style={{ width: '129px', height: '230px' }}>
-								<ReactBootstrap.Card.Img variant="top" src={fourth} />
-							</ReactBootstrap.Card>
-						</ReactBootstrap.Col>
+						<div className="PostInCenter">
+							<ReactBootstrap.Col md="12">
+								<Post />
+							</ReactBootstrap.Col>
+						</div>
 					</ReactBootstrap.Row>
-					<br />
-					<Newpost />
 				</ReactBootstrap.Container>
 			</div>
 		);

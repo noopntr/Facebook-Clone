@@ -1,4 +1,6 @@
 .mainpage {
 	margin: 0;
-	padding-top: 10px;
+	padding: 10px 0 0 0;
+	display: grid;
+	grid-template-columns: [full-start] minmax(0em, 50fr) [main-start] minmax(0, 1em) [main-end] minmax(0em, 0fr) [full-end];
 }

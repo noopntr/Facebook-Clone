@@ -1,0 +1,9 @@
+.PostInCenter {
+	margin: 0;
+	display: flex;
+	color: white;
+}
+
+.bottomCard{
+	height: 40px;
+}
