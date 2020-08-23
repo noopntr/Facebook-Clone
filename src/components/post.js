@@ -48,7 +48,6 @@ export default class post extends Component {
 									<ReactBootstrap.Card.Text>
 										Some quick example text to build on the post title and make up the bulk of the
 										post's content.
-										<hr />
 									</ReactBootstrap.Card.Text>
 									<div className="bottomCard">
 										<ReactBootstrap.Row>

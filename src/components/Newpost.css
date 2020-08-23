@@ -51,3 +51,9 @@ hr {
 	color: rgb(206, 206, 206) !important;
 	transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+	.userIcon {
+		margin-left: 15px;
+	}
+}

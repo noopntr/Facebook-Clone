@@ -25,12 +25,13 @@ a:hover {
 	}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 420px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 	body {
 		width: fit-content;
 	}
+
 	.container {
-		max-width: 540px;
+		width: 600px !important;
 	}
 	.leftMenu {
 		width: fit-content !important;

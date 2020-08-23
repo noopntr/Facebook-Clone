@@ -2,14 +2,10 @@ import React, { Component } from 'react';
 import * as ReactBootstrap from 'react-bootstrap';
 import './Navbar.css';
 import DropdownMenu from './DropDownMenu';
-import fblogo from './icons/fblogo144px.svg';
-import friends from './icons/friends.png';
-import gaming from './icons/gaming.png';
-import home from './icons/home.png';
-import watch from './icons/watch.png';
-import { RiCodeSSlashLine } from 'react-icons/ri';
 
 // Icons
+import fblogo from './icons/fblogo144px.svg';
+import { RiCodeSSlashLine } from 'react-icons/ri';
 import { AiOutlineHome } from 'react-icons/ai';
 import { FaUserFriends } from 'react-icons/fa';
 import { RiTvLine } from 'react-icons/ri';
@@ -21,7 +17,7 @@ export default class Navbar extends Component {
 				<ReactBootstrap.Navbar variant="light" className="NavbarColor">
 					<ReactBootstrap.Container fluid className="containerPadd">
 						<ReactBootstrap.Row>
-							<ReactBootstrap.Navbar.Brand href="#home">
+							<ReactBootstrap.Navbar.Brand href="/">
 								<img
 									src={fblogo}
 									width="45"

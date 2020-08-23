@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './DropDownMenu.css';
 import { ReactComponent as BellIcon } from './icons/bell.svg';
