@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Facebook-React-Ui/static/css/main.42ded486.chunk.css",
-    "main.js": "/Facebook-React-Ui/static/js/main.2380d75d.chunk.js",
-    "main.js.map": "/Facebook-React-Ui/static/js/main.2380d75d.chunk.js.map",
+    "main.js": "/Facebook-React-Ui/static/js/main.df3ae774.chunk.js",
+    "main.js.map": "/Facebook-React-Ui/static/js/main.df3ae774.chunk.js.map",
     "runtime-main.js": "/Facebook-React-Ui/static/js/runtime-main.8fdadc3a.js",
     "runtime-main.js.map": "/Facebook-React-Ui/static/js/runtime-main.8fdadc3a.js.map",
     "static/css/2.11829350.chunk.css": "/Facebook-React-Ui/static/css/2.11829350.chunk.css",
-    "static/js/2.bb144a66.chunk.js": "/Facebook-React-Ui/static/js/2.bb144a66.chunk.js",
-    "static/js/2.bb144a66.chunk.js.map": "/Facebook-React-Ui/static/js/2.bb144a66.chunk.js.map",
+    "static/js/2.fe266a4f.chunk.js": "/Facebook-React-Ui/static/js/2.fe266a4f.chunk.js",
+    "static/js/2.fe266a4f.chunk.js.map": "/Facebook-React-Ui/static/js/2.fe266a4f.chunk.js.map",
     "index.html": "/Facebook-React-Ui/index.html",
-    "precache-manifest.f6cde5f565ae58f1825cfb7d7fff6616.js": "/Facebook-React-Ui/precache-manifest.f6cde5f565ae58f1825cfb7d7fff6616.js",
+    "precache-manifest.b0d931df56c7d826e45db4ac6e3d6e3c.js": "/Facebook-React-Ui/precache-manifest.b0d931df56c7d826e45db4ac6e3d6e3c.js",
     "service-worker.js": "/Facebook-React-Ui/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Facebook-React-Ui/static/css/2.11829350.chunk.css.map",
     "static/css/main.42ded486.chunk.css.map": "/Facebook-React-Ui/static/css/main.42ded486.chunk.css.map",
-    "static/js/2.bb144a66.chunk.js.LICENSE.txt": "/Facebook-React-Ui/static/js/2.bb144a66.chunk.js.LICENSE.txt",
+    "static/js/2.fe266a4f.chunk.js.LICENSE.txt": "/Facebook-React-Ui/static/js/2.fe266a4f.chunk.js.LICENSE.txt",
     "static/media/arrow.48ae6434.svg": "/Facebook-React-Ui/static/media/arrow.48ae6434.svg",
     "static/media/bell.e9fd40a7.svg": "/Facebook-React-Ui/static/media/bell.e9fd40a7.svg",
     "static/media/bolt.681afa2e.svg": "/Facebook-React-Ui/static/media/bolt.681afa2e.svg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.8fdadc3a.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.bb144a66.chunk.js",
+    "static/js/2.fe266a4f.chunk.js",
     "static/css/main.42ded486.chunk.css",
-    "static/js/main.2380d75d.chunk.js"
+    "static/js/main.df3ae774.chunk.js"
   ]
 }
