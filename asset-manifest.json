@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Facebook-React-Ui/static/css/main.42ded486.chunk.css",
+    "main.js": "/Facebook-React-Ui/static/js/main.d618cbc8.chunk.js",
+    "main.js.map": "/Facebook-React-Ui/static/js/main.d618cbc8.chunk.js.map",
+    "runtime-main.js": "/Facebook-React-Ui/static/js/runtime-main.8fdadc3a.js",
+    "runtime-main.js.map": "/Facebook-React-Ui/static/js/runtime-main.8fdadc3a.js.map",
+    "static/css/2.11829350.chunk.css": "/Facebook-React-Ui/static/css/2.11829350.chunk.css",
+    "static/js/2.bb144a66.chunk.js": "/Facebook-React-Ui/static/js/2.bb144a66.chunk.js",
+    "static/js/2.bb144a66.chunk.js.map": "/Facebook-React-Ui/static/js/2.bb144a66.chunk.js.map",
+    "index.html": "/Facebook-React-Ui/index.html",
+    "precache-manifest.a391e466bda80b44e5d011ef2cb7c2ce.js": "/Facebook-React-Ui/precache-manifest.a391e466bda80b44e5d011ef2cb7c2ce.js",
+    "service-worker.js": "/Facebook-React-Ui/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/Facebook-React-Ui/static/css/2.11829350.chunk.css.map",
+    "static/css/main.42ded486.chunk.css.map": "/Facebook-React-Ui/static/css/main.42ded486.chunk.css.map",
+    "static/js/2.bb144a66.chunk.js.LICENSE.txt": "/Facebook-React-Ui/static/js/2.bb144a66.chunk.js.LICENSE.txt",
+    "static/media/arrow.48ae6434.svg": "/Facebook-React-Ui/static/media/arrow.48ae6434.svg",
+    "static/media/bell.e9fd40a7.svg": "/Facebook-React-Ui/static/media/bell.e9fd40a7.svg",
+    "static/media/bolt.681afa2e.svg": "/Facebook-React-Ui/static/media/bolt.681afa2e.svg",
+    "static/media/caret.615e14d1.svg": "/Facebook-React-Ui/static/media/caret.615e14d1.svg",
+    "static/media/chevron.efbb2bd6.svg": "/Facebook-React-Ui/static/media/chevron.efbb2bd6.svg",
+    "static/media/cog.993f0cc0.svg": "/Facebook-React-Ui/static/media/cog.993f0cc0.svg",
+    "static/media/fblogo144px.svg": "/Facebook-React-Ui/static/media/fblogo144px.4f1db175.svg",
+    "static/media/first.jpg": "/Facebook-React-Ui/static/media/first.bf3165f4.jpg",
+    "static/media/fourth.jpg": "/Facebook-React-Ui/static/media/fourth.2d9b184b.jpg",
+    "static/media/messenger.9fdc8d67.svg": "/Facebook-React-Ui/static/media/messenger.9fdc8d67.svg",
+    "static/media/plus.9311af2e.svg": "/Facebook-React-Ui/static/media/plus.9311af2e.svg",
+    "static/media/second.jpg": "/Facebook-React-Ui/static/media/second.0dac7ad6.jpg",
+    "static/media/third.jpg": "/Facebook-React-Ui/static/media/third.d8c6fb37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fdadc3a.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.bb144a66.chunk.js",
+    "static/css/main.42ded486.chunk.css",
+    "static/js/main.d618cbc8.chunk.js"
+  ]
+}
